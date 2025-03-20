@@ -113,19 +113,16 @@ img {
     }
 
     .image-container {
-        width: 279px;
-        height: 200px; 
-        border-radius: 10px;
+        width: 279px; 
         margin-left: 24px;
         margin-right: 24px;
+        
+        overflow: hidden;
     }
 
     img {
-        /* width: 279px;
-        height: 200px; */
-        width: 279px;
-        height: 200px;
-        margin-left: 0;
+        width: 100%;
+        display: block;
     }
 
     .content-container {
@@ -162,6 +159,4 @@ img {
         margin-top: 0px;
         margin-left: 20px;
     }
-
-    
 }
