@@ -98,6 +98,7 @@ img {
     height: 32px;
 
     padding-top: 25px;
+    margin-left: 1.5rem;
 }
 
 .author-name {
@@ -118,16 +119,19 @@ img {
     }
 
     .image-container {
-        /* width: 279px;  */
+        width: 279px;
+        height: 200px;
         margin-left: 24px;
         margin-right: 24px;
-        
-        overflow: hidden;
+
+        border-radius: 10px;
     }
 
     img {
         width: 100%;
-        display: block;
+        height: 100%;
+        object-fit: cover;
+        
     }
 
     .content-container {
